@@ -1,4 +1,4 @@
-#include "L_CST820.h"
+#include "CST820.h"
 
 // Constructor
 CST820::CST820(uint8_t sda, uint8_t scl, uint32_t frecuencia)
