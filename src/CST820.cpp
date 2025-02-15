@@ -47,8 +47,8 @@ bool CST820::isPressed()
 
     if (data[2] == 0x01)
     {                                  // Si se ha detectado una pulsación
-        _x = (data[5] << 8) | data[6]; // Guardamos valor (0 - 320)
-        _y = 240 - data[4];            // Guardamos valor (0 - 240)
+        _x = (data[5] << 8) | data[6];
+        _y = 240 - data[4];
         return true;
     }
     return false;
